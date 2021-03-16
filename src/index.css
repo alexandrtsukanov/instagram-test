@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  height: 100%;
+  background: url("https://static9.depositphotos.com/1554103/1168/i/600/depositphotos_11688404-stock-photo-blue-circle-gradient-background-cuci.jpg");
+  background-size: cover;
+}
+
+.comp {
+  /* background-color: cornflowerblue; */
+  /* border: solid white 5px;
+  border-radius: 20px; */
+  margin: 7px;
+  padding: 7px;
+  /* filter: drop-shadow(0 0 1rem black) */
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 0.5cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  padding: 0.2cm;
+  border: solid 2px grey;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 1rem black);
+  background-color: yellowgreen;
+}
+
+span {
+  text-decoration: none;
+}
+
+.post {
+  border: solid 4px rgb(7, 14, 54);
+  background-color: rgb(255, 136, 0, 0.8);
+  /* filter: drop-shadow(0 0 1rem azure); */
+  text-align: center;
+  height: 390px;
+  width: 270px;
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+}
+
+#home {
+  background-color: rgb(255, 136, 0, 0.4);
+  text-align: center;
+  border: solid 4px rgb(7, 14, 54);
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 3cm;
+  margin-right: 3cm;
+  margin-top: 1.3cm;
+  margin-bottom: 1.3cm;
+}
+
+.form {
+  background-color: rgb(50, 205, 50, 0.5);
+  border: solid 4px rgb(7, 14, 54);
+  border-radius: 13px;
+  width: 9cm;
+}
+
+.option-enter {
+  opacity: 0
+}
+
+.option-enter.option-enter-active {
+  opacity: 1;
+  transition: opacity 5s ease;
+}
+
+.option-exit {
+  opacity: 1
+}
+
+.option-exit.option-exit-active {
+  opacity: 1;
+  transition: opacity 5s ease;
+}
